@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:bold' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+  <div class="grid">
+    <header class="grid-item header">
+      <h1>Choose your weapon!</h1>
+    </header> 
+
+    <section class="grid-item">
+      <button id="reset" class="reset-game">Reset</button>
+    </section>
+
+    <section class="grid-item scoreboard">
+      <i class="fas fa-user"></i>
+      <span id="user-score" class="fas">0</span>
+      <i class="fas fa-robot"></i> 
+      <span id="computer-score" class="fas">0</span>
+    </section>
+
+    <section class="grid-item result">
+      <h3>Rock smashes scissors. You win!</h3>
+    </section>
+  
+    <section class="grid-item player-choice">
+      <button id="rock" class="weapon-choice"><i class="far fa-hand-rock"></i></button>
+      <button id="paper" class="weapon-choice"><i class="far fa-hand-paper"></i></button>
+      <button id="scissors" class="weapon-choice"><i class="far fa-hand-scissors"></i></button>
+    </section>
+
+    
+  </div>
+
+
+<script src="rock-papers.js "></script>
+    
+</body>
+</html>
